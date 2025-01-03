@@ -15,4 +15,5 @@ func main() {
 	if age := 10; age == 10 {
 		fmt.Println("age is 10")
 	}
+	// Go does not have ternary operator, you will have to use normal if else
 }
