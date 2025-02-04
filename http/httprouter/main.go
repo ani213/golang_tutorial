@@ -22,6 +22,6 @@ func main() {
 	// NameHandler will be called if the url path matches, ex- name/John/Doe
 	router.GET("/name/:firstname/:lastname", NameHandler)
 
-	// Start the HTTP server on port 8081
+	// Start the HTTP server on port 8080
 	http.ListenAndServe(":8080", router)
 }
