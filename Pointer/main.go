@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// pointer default value is <nil>
 func main() {
 	// var ptr *int
 	// fmt.Println("var value pointer", ptr) // o/p <nil>
