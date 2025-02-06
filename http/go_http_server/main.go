@@ -6,7 +6,7 @@ import (
 
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		http.ServeFile(w, r, "html/unrecognized_path.html")
+		http.ServeFile(w, r, "html/unrecognized_path.html") //Serves the HTML file as-is. No dynamic data insertion.
 	})
 	// The http.HandleFunc function is used to define different routes and serve corresponding HTML files.
 	// If a user accesses /, the server responds with the file unrecognized_path.html.
