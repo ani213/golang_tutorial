@@ -1,0 +1,3 @@
+<HTML>
+{{if .}}<table><tr><td><B>First Name</B></td><td><B>Last Name</B></td></tr>{{range $person := . }}<tr><td>{{$person.FirstName}}</td><td>{{$person.LastName}}</td></tr>{{end}}</table>{{else}}<h1>No Names</h1>{{end}}
+</HTML>
