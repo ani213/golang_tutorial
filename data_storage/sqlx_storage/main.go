@@ -80,7 +80,6 @@ func main() {
 // -Standard database/sql requires sql.NullString for handling NULL values:
 
 // Summary: Why Use sqlx? 🚀
-
 //     Feature	           database/sql	               sqlx
 // Struct Mapping	❌ Manual Scan() required	✅ StructScan()
 // Fetching Rows	❌ Loop + Scan()         	✅ Select(&slice, query)
