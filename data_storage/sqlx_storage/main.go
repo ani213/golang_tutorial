@@ -71,10 +71,11 @@ func main() {
 	}
 }
 
-// sqlx
+// sqlx-
 // -With sqlx, you can fetch all records into a slice in one line
 // -With sqlx, it automatically maps NULL values to string fields without issues
 
+// Standard database/sql-
 // -Fetching multiple rows is manual using Standard database/sql (Looping over Rows)
 // -Standard database/sql requires sql.NullString for handling NULL values:
 
