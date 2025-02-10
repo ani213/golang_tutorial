@@ -27,4 +27,10 @@ func main() {
 
 	value2, ok := newMap["not"]
 	fmt.Println("value", value2, "isExist", ok)
+
+	//Deleting items from a map
+
+	delete(mapValue, "x")
+	fmt.Println("mapvale new after delete", mapValue)
+
 }
