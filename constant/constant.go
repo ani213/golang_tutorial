@@ -6,12 +6,12 @@ import "fmt"
 const name = "Last name"
 
 func main() {
-	const name string = "Aniket"
+	const name1 string = "Aniket"
 	fmt.Println(name)
 
-	const name2 = "Aniket"
+	const name2 = "Anurag"
 
-	fmt.Println(name2)
+	fmt.Println(name1)
 	fmt.Println(name2)
 	const (
 		firstName = "Aniket"
